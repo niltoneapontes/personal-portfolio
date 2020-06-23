@@ -144,6 +144,9 @@ p{
   .proj-img{
     width: 100%;
   }
+  #projects{
+    justify-content: center;
+  }
   #project-grid{
     display: grid;
     grid-template-columns: 70%;

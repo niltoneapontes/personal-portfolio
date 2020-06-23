@@ -149,7 +149,8 @@ p{
     grid-template-columns: 70%;
   }
   .project-tile{
-    width: 80%;
+    justify-self: center;
+    width: 50%;
     margin: 12px auto;
   }
   body{

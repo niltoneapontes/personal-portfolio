@@ -149,7 +149,7 @@ p{
   }
   #project-grid{
     display: grid;
-    grid-template-columns: 70%;
+    grid-template-columns: none;
   }
   .project-tile{
     justify-self: center;

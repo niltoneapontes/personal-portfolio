@@ -33,6 +33,7 @@ section{
 }
 
 #welcome-section{
+  width: 100%;
   margin-top: 60px;
   height: 100vh;
   background: #0C1618;
@@ -67,11 +68,13 @@ p{
 }
 
 #projects{
+  width: 100%;
   position: relative;
   display: flex;
   flex-direction: column;
   margin: 0;
-  padding: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   background: #D1AC00;
   justify-content: space-evenly;
 }
@@ -143,7 +146,7 @@ p{
   }
   #project-grid{
     display: grid;
-    grid-template-columns: 80%;
+    grid-template-columns: 70%;
   }
   .project-tile{
     width: 80%;
@@ -167,8 +170,10 @@ p{
 
 
 #contact{
+  width: 100%;
   position: relative;
-  padding: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   display: flex;
   flex-direction: column;
   background: #124559;

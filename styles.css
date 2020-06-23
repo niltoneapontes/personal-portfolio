@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500&family=Montserrat:wght@300;400&display=swap');
+
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+section{
+  scroll-behavior: smooth;
+}
+
+#navbar{
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 60px;
+  background: #07A0C3;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  z-index: 1;
+  box-shadow: 0px 1px 5px black;
+}
+
+#navbar a{
+  text-decoration: none;
+  color: #f3f4f9;
+  font-family: arial;
+  font-size: 24px;
+  padding-right: 32px;
+  font-family: 'Jost', sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+
+#welcome-section{
+  margin-top: 60px;
+  height: 100vh;
+  background: #0C1618;
+  color: #f3f4f9;
+  font-size: 24px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1{
+  font-family: 'Jost', sans-serif;
+  text-align: center;
+  text-shadow: 0.05em 0.05em black;
+  margin-bottom: 0px;
+  color: #F3F4F9;
+  transition: all 0.3s ease-in-out;
+}
+
+#welcome-section h1{
+    font-size: 52px;
+}
+
+a:hover{
+  filter: brightness(70%);
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+#projects{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 5%;
+  background: #D1AC00;
+  justify-content: space-evenly;
+}
+
+#project-header h1{
+  margin: 0 0 24px 0;
+  font-size: 36px;
+  font-size: 52px;
+}
+
+#project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 4rem 4rem;
+  color: #f3f4f9;
+  font-size: 24px;
+  max-width: 1280px;
+  height: auto;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  margin-left: auto;
+}
+
+.project-tile{
+  width: 320px;
+  height: auto;
+  margin-top: 0;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.project-tile a{
+  text-decoration: none;
+}
+
+
+.project-tile:hover > .proj-img{
+  filter: brightness(70%);
+}
+
+.proj-img{
+  margin: 0;
+  position: relative;
+  filter: brightness(80%);
+  z-index:0;
+  border-radius: 8px;
+}
+
+.project-tile .go{
+    position: absolute;
+    right: 1rem;
+    bottom: 5rem;
+    color: #eee;
+    text-align: center;
+    font-size: 64px;
+    opacity: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.project-tile:hover .go{
+    opacity: 1;
+}
+
+@media(max-width: 900px){
+  .proj-img{
+    width: 100%;
+  }
+  #project-grid{
+    display: grid;
+    grid-template-columns: 80%;
+  }
+  .project-tile{
+    width: 80%;
+    margin: 12px auto;
+  }
+  body{
+    padding-bottom: 64px;
+  }
+  .project-tile .go{
+    opacity: 0;
+  }
+}
+
+.learn{
+  position: relative;
+  z-index:0;
+  color: #fff;
+  text-align: center;
+  margin-top: 0rem;
+}
+
+
+#contact{
+  position: relative;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  background: #124559;
+  color: #f3f4f9;
+  font-size: 24px;
+}
+
+#contact header{
+  flex: 1 100%;
+}
+
+#contact header h1{
+  font-family: 'Jost', sans-serif;
+  text-align: center;
+  margin-bottom: 24px;
+  color: #f3f4f9;
+  font-size: 52px;
+}
+
+#contact main{
+  flex: 1 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact a{
+  font-family: 'Jost', sans-serif;
+  font-size: 24px;
+  line-height:42px;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 0px;
+  color: #f3f4f9;
+  transition: all 0.3s ease-in-out;
+}
+
+svg{
+  margin-bottom: -0.2rem;
+  margin-right: 0.2rem;
+}
+
+#profile-link:before{
+  position: absolute;
+  left: -1.2rem;
+  content: '<';
+  font-family: 'Jost', sans-serif;
+  color: #0f0;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+#profile-link:after{
+  position: absolute;
+  content: '/>';
+  font-family: 'Jost', sans-serif;
+  color: #0f0;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+#profile-link:hover::before{
+  opacity: 1;
+}
+
+#profile-link:hover::after{
+  opacity: 1;
+}
+
+footer{
+    font-size: 12px;
+    color: #eee;
+    background: #222;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+}

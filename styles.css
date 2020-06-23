@@ -140,13 +140,13 @@ p{
     opacity: 1;
 }
 
-@media(max-width: 900px){
+@media(max-width: 1088px){
   .proj-img{
     width: 100%;
   }
   #project-grid{
     display: grid;
-    grid-template-columns: 50%;
+    grid-template-columns: 70%;
   }
   .project-tile{
     width: 80%;

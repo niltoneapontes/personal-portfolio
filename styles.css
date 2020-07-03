@@ -171,9 +171,7 @@ p{
     width: 50%;
     margin: 12px auto;
   }
-  body{
-    padding-bottom: 64px;
-  }
+  
   .project-tile .go{
     opacity: 0;
   }

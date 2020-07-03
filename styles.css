@@ -158,7 +158,6 @@ p{
 @media(max-width: 1088px){
   .proj-img{
     width: 60%;
-    justify-content: center;
   }
   #projects{
     justify-content: center;
@@ -172,6 +171,10 @@ p{
     align-self: center;
     width: 50%;
     margin: 12px auto;
+  }
+  
+  .project-tile a{
+    justify-content: center;
   }
   
   .project-tile .go{

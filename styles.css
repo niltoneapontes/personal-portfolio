@@ -13,6 +13,14 @@ section{
   scroll-behavior: smooth;
 }
 
+h5{
+  font-size: 0.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  color: #222;
+  text-align: center;
+}
+
 #navbar{
   position: fixed;
   top: 0px;
@@ -20,7 +28,8 @@ section{
   height: 60px;
   background: #07A0C3;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  padding: 0 1rem;
   align-items: center;
   z-index: 1;
   box-shadow: 0px 1px 5px black;
@@ -49,10 +58,12 @@ section{
   flex-direction: column;
 }
 
+
 h1{
   font-family: 'Jost', sans-serif;
   text-align: center;
   text-shadow: 0.05em 0.05em black;
+  margin-top: 0px;
   margin-bottom: 0px;
   color: #F3F4F9;
   transition: all 0.3s ease-in-out;
@@ -107,7 +118,7 @@ p{
   width: 320px;
   height: auto;
   margin-top: 0;
-  justify-content: center;
+  justify-content: center;  
   transition: all 0.3s ease-in-out;
 }
 

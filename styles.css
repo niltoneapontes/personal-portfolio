@@ -183,6 +183,10 @@ p{
   .project-tile .go{
     opacity: 0;
   }
+  
+  .project-tile .go:hover{
+    opacity: 0;
+  }
 }
 
 .learn{

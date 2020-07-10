@@ -207,7 +207,7 @@ p{
 
 @media(max-width: 1088px){
   .proj-img{
-    width: 100%;
+    width: 60%;
   }
   #projects{
     justify-content: center;
@@ -218,10 +218,15 @@ p{
   }
   .project-tile{
     justify-self: center;
+    align-self: center;
     width: 50%;
     margin: 12px auto;
   }
   .project-tile .go{
+    opacity: 0;
+  }
+  
+  .project-tile .go:hover{
     opacity: 0;
   }
 }

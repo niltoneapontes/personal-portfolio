@@ -13,6 +13,52 @@ section{
   scroll-behavior: smooth;
 }
 
+.code{
+  padding: 12px;
+  padding-top: 32px;
+  padding-left: 32px;
+  border-radius: 8px;
+  background: #222;
+  color: #eee;
+  font-size: 18px;
+  box-shadow: 0.05em 0.05em black;
+  margin: 24px;
+}
+
+#red{
+  position: absolute;
+  margin-top: -24px;
+  margin-left: -24px;
+  background-color: #FF6058;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+#yellow{
+  position: absolute;
+  margin-top: -24px;
+  margin-left: -8px;
+  background-color: #FFC22F;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+#green{
+  position: absolute;
+  margin-top: -24px;
+  margin-left: 8px;
+  background-color: #27C93F;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.bold-green{
+  color: #27C93F;
+}
+
 h5{
   font-size: 0.5em;
   font-family: Arial, Helvetica, sans-serif;
@@ -49,7 +95,7 @@ h5{
   width: 100%;
   margin-top: 60px;
   height: 100vh;
-  background: #0C1618;
+  background: #44AF69;
   color: #f3f4f9;
   font-size: 24px;
   display:flex;
@@ -80,6 +126,10 @@ a:hover{
 p{
   font-family: 'Montserrat', sans-serif;
   text-align: center;
+  color: black;
+  font-weight: 700;
+  margin-top: 24px;
+  margin-bottom: 0;
 }
 
 #projects{
@@ -170,9 +220,6 @@ p{
     justify-self: center;
     width: 50%;
     margin: 12px auto;
-  }
-  body{
-    padding-bottom: 64px;
   }
   .project-tile .go{
     opacity: 0;

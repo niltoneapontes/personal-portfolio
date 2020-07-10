@@ -206,8 +206,16 @@ p{
 }
 
 @media(max-width: 1088px){
+  .code{
+    transform: scale(1.5);
+  }
+  p{
+    font-size: 32px;
+  }
+
   .proj-img{
     width: 100%;
+    height: 360px;
   }
   #projects{
     justify-content: center;
@@ -222,12 +230,19 @@ p{
     width: 50%;
     margin: 12px auto;
   }
+  .project-tile a{
+    font-size: 32px;
+  }
   .project-tile .go{
     opacity: 0;
   }
   
   .project-tile .go:hover{
     opacity: 0;
+  }
+
+  #contact a{
+    font-size: 32px;
   }
 }
 

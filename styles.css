@@ -326,10 +326,6 @@ footer a{
     font-size: 32px;
   }
 
-  .proj-img{
-    width: 100%;
-    height: 360px;
-  }
   #projects{
     justify-content: center;
   }
@@ -364,7 +360,7 @@ footer a{
     transform: scale(0.8);
   }
   .project-tile{
-  width: 80%;
+  width: 90%;
   }
   .learn {
     font-size: 32px;

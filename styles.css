@@ -343,7 +343,7 @@ footer a{
     font-size: 32px;
   }
 
-  .project-img {
+  .proj-img {
     width: 100%;
   }
   .project-tile .go{
@@ -359,12 +359,16 @@ footer a{
   }
 }
 
-@media(max-width: 560px){
+@media(max-width: 580px){
   .code{
     transform: scale(0.8);
   }
   .project-tile{
   width: 90% !important;
+  }
+
+  .proj-img {
+    width: 100%;
   }
   .learn {
     font-size: 32px;

@@ -336,7 +336,7 @@ footer a{
   .project-tile{
     justify-self: center;
     align-self: center;
-    width: 60%;
+    width: 90% !important;
     margin: 12px auto;
   }
   .project-tile a{

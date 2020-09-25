@@ -359,7 +359,7 @@ footer a{
   }
 }
 
-@media(max-width: 520px){
+@media(max-width: 560px){
   .code{
     transform: scale(0.8);
   }

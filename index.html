@@ -3,8 +3,9 @@
     <head>
       <meta charset="utf-8">
       <title> Nilton's Portfolio </title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
       <link rel="shortcut icon" href="assets/hacker.png" type="image/x-icon">
-        <link rel="stylesheet" href="./styles.css">
+      <link rel="stylesheet" href="./styles.css">
     </head>
     
     <body>
@@ -29,11 +30,32 @@
       
       <section id="projects">
         <div id="project-header"><h1>My Projects</h1></div>
+        
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="2000">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="assets/capaGobarber.png" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="assets/capaGoFinances.png" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="assets/spotify.png" alt="Third slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
         <div id="project-grid">
-
           <article class="project-tile">
             <a href="https://github.com/niltoneapontes/aulas-gostack" target="_blank">
-              <img class="proj-img" src="https://imgur.com/Q7fMGfU.png" width="360" height="240"/>
+              <img class="proj-img" src="https://imgur.com/Q7fMGfU.png"/>
               <div class="go">👀</div>
               <h1 class="learn">GoBarber</h1>
               <h5>(Produzido durante GoStack @Rocketseat)</h5>
@@ -42,7 +64,7 @@
           
           <article class="project-tile">
             <a href="https://github.com/niltoneapontes/github-explorer-react" target="_blank">
-              <img class="proj-img" src="https://imgur.com/DOnheyM.png" width="360" height="240"/>
+              <img class="proj-img" src="https://imgur.com/DOnheyM.png"/>
               <div class="go">👀</div>
               <h1 class="learn"> Github Explorer</h1>
               <h5>(Produzido durante GoStack @Rocketseat)</h5>
@@ -51,7 +73,7 @@
 
           <article class="project-tile">
             <a href="https://github.com/niltoneapontes/gofinances" target="_blank">
-              <img class="proj-img" src="https://imgur.com/mVVfmsc.png" width="360" height="240"/>
+              <img class="proj-img" src="https://imgur.com/mVVfmsc.png"/>
               <div class="go">👀</div>
               <h1 class="learn">GoFinances</h1>
               <h5>(Produzido durante GoStack @Rocketseat)</h5>
@@ -60,7 +82,7 @@
 
           <article class="project-tile">
             <a href="https://github.com/niltoneapontes/gomarketplace" target="_blank">
-              <img class="proj-img" src="https://imgur.com/HYvwymt.png" width="360" height="240"/>
+              <img class="proj-img" src="https://imgur.com/HYvwymt.png"/>
               <div class="go">👀</div>
               <h1 class="learn">GoMarketplace</h1>
               <h5>(Produzido durante GoStack @Rocketseat)</h5>
@@ -69,7 +91,7 @@
   
           <article class="project-tile">
             <a href="https://github.com/niltoneapontes/frontend-cowerk" target="_blank">
-              <img class="proj-img" src="https://imgur.com/jingDRD.png" width="360" height="240"/>
+              <img class="proj-img" src="https://imgur.com/jingDRD.png"/>
               <div class="go">👀</div>
               <h1 class="learn">Cowerk</h1>
               <h5>(Produzido com objetivo de estudo)</h5>
@@ -78,7 +100,7 @@
 
           <article class="project-tile">
             <a href="https://github.com/niltoneapontes/next-level-week-1.0" target="_blank">
-              <img class="proj-img" src="https://imgur.com/TV1R4PJ.png" width="360" height="240"/>
+              <img class="proj-img" src="https://imgur.com/TV1R4PJ.png"/>
               <div class="go">👀</div>
               <h1 class="learn">Ecoleta</h1>
               <h5>(Produzido durante Next Level Week @Rocketseat)</h5>
@@ -87,7 +109,7 @@
 
           <article class="project-tile">
             <a href="https://github.com/niltoneapontes/semana-omnistack-11.0" target="_blank">
-              <img class="proj-img" src="https://imgur.com/Jx7CTs3.png" width="360" height="240"/>
+              <img class="proj-img" src="https://imgur.com/Jx7CTs3.png"/>
               <div class="go">👀</div>
               <h1 class="learn">BeTheHero</h1>
               <h5>(Produzido durante Semana Omnistack @Rocketseat)</h5>
@@ -96,7 +118,7 @@
 
           <article class="project-tile">
             <a href="https://codepen.io/niltoneapontes/full/VwepyeJ" target="_blank">
-              <img class="proj-img" src="https://imgur.com/m2MmzHl.png" width="360" height="240"/>
+              <img class="proj-img" src="https://imgur.com/m2MmzHl.png"/>
               <div class="go">👀</div>
               <h1 class="learn"> Cloning Spotify Interface </h1>
               <h5>(Produzido com objetivo de estudo)</h5>
@@ -105,7 +127,7 @@
             
           <article class="project-tile">
             <a href="https://the-meme-guy.herokuapp.com/" target="_blank">
-              <img class="proj-img" src="https://i.imgur.com/0VsfI6X.png" width="360" height="240"/>
+              <img class="proj-img" src="https://i.imgur.com/0VsfI6X.png"/>
               <div class="go">👀</div>
               <h1 class="learn"> The Meme Guy </h1>
               <h5>(Produzido com objetivo de estudo)</h5>
@@ -114,7 +136,7 @@
   
           <article class="project-tile">
             <a href="https://codepen.io/collection/AGwyEB" target="_blank">
-              <img class="proj-img" src="https://imgur.com/UTyCu7q.png" width="360" height="240"/>
+              <img class="proj-img" src="https://imgur.com/UTyCu7q.png"/>
               <div class="go">👀</div>
               <h1 class="learn">#30diasdeCSS</h1>
               <h5>(30 mini-projetos em CSS)</h5>
@@ -123,7 +145,7 @@
 
           <article class="project-tile">
             <a href="https://littlecoffee.netlify.app/" target="_blank">
-              <img class="proj-img" src="https://imgur.com/lb4fKIE.png" width="360" height="240"/>
+              <img class="proj-img" src="https://imgur.com/lb4fKIE.png"/>
               <div class="go">👀</div>
               <h1 class="learn"> Blog Pessoal (manutenção)</h1>
               <h5>(Produzido com objetivo de estudo)</h5>
@@ -132,7 +154,7 @@
 
           <article class="project-tile">
             <a href="https://niltoneapontes.github.io/jogo-cobrinha-javascript/" target="_blank">
-              <img class="proj-img" src="https://i.imgur.com/gntd9Qg.png" width="360" height="240"/>
+              <img class="proj-img" src="https://i.imgur.com/gntd9Qg.png"/>
               <div class="go">👀</div>
               <h1 class="learn"> Snake ("Jogo da Cobrinha")</h1>
               <h5>(Produzido com objetivo de estudo)</h5>
@@ -141,7 +163,7 @@
 
         <article class="project-tile">
           <a href="https://codepen.io/niltoneapontes/full/MWaOVzv" target="_blank">
-            <img class="proj-img" src="https://images.pexels.com/photos/2004161/pexels-photo-2004161.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" width="360" height="240"/>
+            <img class="proj-img" src="https://images.pexels.com/photos/2004161/pexels-photo-2004161.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"/>
             <div class="go">👀</div>
             <h1 class="learn"> Survey Form </h1>
             <h5>(Produzido com objetivo de estudo)</h5>
@@ -150,7 +172,7 @@
         
         <article class="project-tile">
           <a href="https://codepen.io/niltoneapontes/full/WNQMqYe" target="_blank">
-            <img class="proj-img" src="https://imgur.com/cUR63JA.png" width="360" height="240"/>
+            <img class="proj-img" src="https://imgur.com/cUR63JA.png"/>
             <div class="go">👀</div>
             <h1 class="learn"> Technical Documentation Page </h1>
             <h5>(Produzido com objetivo de estudo)</h5>
@@ -159,7 +181,7 @@
           
           <article class="project-tile">
           <a href="https://codepen.io/niltoneapontes/full/wvKyzJG" target="_blank">
-            <img class="proj-img" src="https://imgur.com/YZRmWIs.png" width="360" height="240"/>
+            <img class="proj-img" src="https://imgur.com/YZRmWIs.png"/>
             <div class="go">👀</div>
             <h1 class="learn"> Product Landing Page </h1>
             <h5>(Produzido com objetivo de estudo)</h5>
@@ -168,7 +190,7 @@
           
         <article class="project-tile">
           <a href="https://ertoncesar.netlify.app/" target="_blank">
-            <img class="proj-img" src="https://i.imgur.com/5BYrWlT.png?1" width="360" height="240"/>
+            <img class="proj-img" src="https://i.imgur.com/5BYrWlT.png?1"/>
             <div class="go">👀</div>
             <h1 class="learn"> Landing Page </h1>
             <h5>(Produzido com objetivo de estudo)</h5>
@@ -189,6 +211,8 @@
         
       <section>
     <footer>  <div>Ícones feitos por <a href="https://www.flaticon.com/br/autores/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com</a></div>  </footer>
-  
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>    
     </body>
   </html>

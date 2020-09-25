@@ -360,7 +360,7 @@ footer a{
     transform: scale(0.8);
   }
   .project-tile{
-  width: 90%;
+  width: 90% !important;
   }
   .learn {
     font-size: 32px;

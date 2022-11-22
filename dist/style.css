@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, p, span, strong, a {
+  font-family: 'Poppins', sans-serif;
+  color: #f5f5f5;
+  text-decoration: none;
+}
+
+body {
+  background-color: #171717;
+}
+
+main {  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+
+
+.container {
+  background-color: #171717;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+    scroll-snap-align: start;
+  scroll-snap-stop: always;
+    object-fit: cover;
+  object-position: center;
+  position: relative;
+}
+
+.particle-container {
+  background: transparent;
+}
+
+.row {
+  flex-direction: row;
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #171717;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  z-index: -1;
+}
+
+#second-section-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 5rem;
+  line-height: 5rem;
+  margin-top: 1rem;
+  color: #F5F5F5;
+}
+
+#section-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 5rem;
+  line-height: 5rem;
+  width: 100%;
+  text-align: center;
+  color: #F5F5F5;
+}
+
+.contact {
+  background-color: #F5F5F5;
+}
+
+.contact #section-title {
+  color: #171717;
+}
+
+.unsplash-title {
+    width: 50%;
+  height: 100%;
+    position: absolute;
+    top: 50%;
+  text-vertical-align: center;
+  transform: translateY(-50%);
+    left: 0;
+  padding-left: 24px;
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+}
+
+.unsplash-image {
+  background: url("https://source.unsplash.com/random/780x400");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+
+.typing {
+  width: 13ch;
+  animation: typing 2s steps(13), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 0.16ch solid;
+  line-height: 5rem;
+  font-size: 5rem;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+
+.fa-github{
+  color: white;
+}
+ul
+{
+    position: relative;
+    margin: 0;
+    margin-top: 80px;
+    padding: 0;
+    display: flex;
+}
+ul li 
+{
+    border-radius: 8px;
+    border: 1px solid white;
+    position: relative;
+    list-style: none;
+    width: 60px;
+    height: 60px;
+    margin: 0 30px;
+    transform: rotate(-30deg) skew(25deg);
+
+    background-color: #F5F5F5;
+}
+ul li span
+{
+    border: 1px solid white;
+    border-radius: 8px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #F5F5F5;
+    transition: 0.5s;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 30px !important;
+}
+ul li:hover span
+{
+    box-shadow: -1px 1px 1px rgba(255,255,255,1);
+}
+
+ul li:hover span:nth-child(5)
+{
+    transform: translate(40px, -40px);
+    opacity: 1;
+}
+ul li:hover span:nth-child(4)
+{
+    transform: translate(30px, -30px);
+    opacity: 0.8;
+}
+ul li:hover span:nth-child(3)
+{
+    transform: translate(20px, -20px);
+    opacity: 0.6;
+}
+ul li:hover span:nth-child(2)
+{
+    transform: translate(10px, -10px);
+    opacity: 0.4;
+}
+ul li:hover span:nth-child(1)
+{
+    transform: translate(0,0);
+    opacity: .2;
+}
+ul li:nth-child(1) span
+{
+    background: #17A765;
+}
+ul li:nth-child(2) span
+{
+    background: #3b5999;
+}
+ul li:nth-child(3) span
+{
+    background: #E1306C;
+}
+ul li:nth-child(4) span
+{
+    background: #171717;
+}
+
+.skills-container {
+  width: 80%;
+  margin-top: 80px;
+  height: 75vh;
+  position: relative;
+}
+
+.skill {
+  cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+  color: #f5f5f5;
+  text-decoration: none;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+
+.skill:hover {
+  transform: scale(1.2);
+}

@@ -264,6 +264,9 @@ ul li {
   ul li {
     margin-top: 48px;
   }
+  .my-carousel {
+    width: 100%;
+  }
 }
 
 ul li span {

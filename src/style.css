@@ -5,6 +5,13 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #171717;
+  height: 100vh;
+  overflow: hidden;
+  font-size: 12px;
+}
+
 h1,
 h2,
 h3,
@@ -22,12 +29,6 @@ a:hover {
   font-family: "Poppins", sans-serif;
   color: #d4d4d4;
   text-decoration: none;
-}
-
-body {
-  background-color: #171717;
-  height: 100vh;
-  overflow: hidden;
 }
 
 main {
@@ -163,6 +164,7 @@ main {
   object-fit: cover;
   object-position: center;
   position: relative;
+  padding: 0 12px;
 }
 
 .particle-my-container {
@@ -295,6 +297,7 @@ ul li {
   }
   ul {
     flex-direction: column;
+    margin-top: 40px;
   }
   ul li {
     margin-top: 48px;

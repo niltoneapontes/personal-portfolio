@@ -1,0 +1,16 @@
+{
+  "short_name": "Nilton",
+  "name": "Portfólio Nilton Pontes",
+  "icons": [{
+    "src": "icon.png",
+    "type": "image/png",
+    "sizes": "1080x1080"
+  }],
+  "id": "/",
+  "start_url": "/",
+  "background_color": "#171717",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#171717",
+  "description": "Conheça o meu trabalho :)"
+}

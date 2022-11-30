@@ -124,7 +124,7 @@ fetch(
       repo.innerHTML += `
     <article class="card">
     <img src="${repository.owner.avatar_url}" alt="Avatar" class="avatar"/>
-      <div>
+      <div class="card-text">
       <strong><a href="${repository.html_url}" target="_blank">${
         repository.name
       }</a></strong>
